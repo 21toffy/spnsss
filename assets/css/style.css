@@ -526,11 +526,12 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .section-title-marg {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 100px;
 }
 
 
@@ -1442,11 +1443,12 @@ margin: 4px 2px;*/
   text-align: left;
   justify-content: left;
   font-weight: bolder;
+  font-size: 25px;
 }
 
 .pmarge{
   justify-content: center;
-  /*text-align: center;*/
+  text-align: center;
   font-weight: lighter;
   font-size: 18px;
 }
@@ -1460,7 +1462,7 @@ margin: 4px 2px;*/
   width: 100px;
   transition: all 0.5s;
   color: #003679;
-  margin: 0 0 0 -70px;
+  margin: 0 0 0 -30px;
   /*justify-content: center;*/
 }
 
@@ -2511,7 +2513,7 @@ service-block, .gallery-block, .vacation-offer-block, .resort-overview-block, .b
     padding: 70px 0 0 0;
 }
 .vacation-offer-bgbanner {
-    background: rgba(0, 0, 0, 0) url("assets/img/king.png") no-repeat scroll center center / cover ;
+    background: rgba(0, 0, 0, 0) url("assets/img/balance.jpg") no-repeat scroll center center / cover ;
     color: #fff;
     position: relative;
     padding: 65px;
