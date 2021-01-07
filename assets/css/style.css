@@ -1399,7 +1399,7 @@ section {
   border-radius: 25px;
   margin:10px 90px 0 0 ;
 
-  background: #DCB70B;
+  background: #DBAE65;
   min-width: 150px;
   font-weight: bolder;
 
@@ -1545,7 +1545,7 @@ margin: 4px 2px;*/
     min-height: 720px;
     position: relative;
     height: 100%;
-    background: url(assets/img/overview.jpg) center center;
+    background: url(assets/img/n/overview.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -1556,7 +1556,7 @@ margin: 4px 2px;*/
 
 @media(max-width:768px){
     .homepage {
-    background-image: url(assets/img/overview.jpg);   
+    background-image: url(assets/img/n/overview.jpg);   
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
@@ -1592,7 +1592,7 @@ margin: 4px 2px;*/
     min-height: 720px;
     position: relative;
     height: 100%;
-    background: url(assets/img/manpower2.jpg) center center;
+    background: url(assets/img/n/man-power-outsourcing.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -1602,7 +1602,7 @@ margin: 4px 2px;*/
 }
 @media(max-width:768px){
     .man_power {
-    background-image: url(assets/img/manpower2.jpg);   
+    background-image: url(assets/img/n/man-power-outsourcing.jpg);   
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
@@ -1613,7 +1613,7 @@ margin: 4px 2px;*/
     min-height: 720px;
     position: relative;
     height: 100%;
-    background: url(assets/img/process_outsourcing2.jpg) center center;
+    background: url(assets/img/n/Process-outsourcing.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -1623,7 +1623,7 @@ margin: 4px 2px;*/
 }
 @media(max-width:768px){
     .process_outsourcing {
-    background-image: url(assets/img/process_outsourcing2.jpg);   
+    background-image: url(assets/img/n/Process-outsourcing.jpg);   
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
@@ -1688,7 +1688,7 @@ margin: 4px 2px;*/
     min-height: 720px;
     position: relative;
     height: 100%;
-    background: url(assets/img/sqm2.jpg) center center;
+    background: url(assets/img/n/mystery-shoppingg.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -1699,7 +1699,7 @@ margin: 4px 2px;*/
 
 @media(max-width:768px){
     .sqm {
-    background-image: url(assets/img/sqm2.jpg);   
+    background-image: url(assets/img/n/mystery-shoppingg.jpg);   
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
@@ -1711,7 +1711,7 @@ margin: 4px 2px;*/
     min-height: 720px;
     position: relative;
     height: 100%;
-    background: url(assets/img/coporate_strategy2.jpg) center center;
+    background: url(assets/img/n/corporate-strategy.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -1722,7 +1722,7 @@ margin: 4px 2px;*/
 
 @media(max-width:768px){
     .corporate {
-    background-image: url(assets/img/coporate_strategy2.jpg);   
+    background-image: url(assets/img/n/corporate-strategy.jpg);   
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
@@ -1734,7 +1734,7 @@ margin: 4px 2px;*/
     min-height: 720px;
     position: relative;
     height: 100%;
-    background: url(assets/img/restructure1.jpg) center center;
+    background: url(assets/img/n/Hr-resttructure.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -1745,7 +1745,7 @@ margin: 4px 2px;*/
 
 @media(max-width:768px){
     .hr_restructure_revamp {
-    background-image: url(assets/img/restructure1.jpg);   
+    background-image: url(assets/img/n/Hr-resttructure.jpg);   
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
@@ -1757,7 +1757,7 @@ margin: 4px 2px;*/
     min-height: 720px;
     position: relative;
     height: 100%;
-    background: url(assets/img/employee_management1.jpeg) center center;
+    background: url(assets/img/n/employee-enagement.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -1768,7 +1768,7 @@ margin: 4px 2px;*/
 
 @media(max-width:768px){
     .employee_engagement {
-    background-image: url(assets/img/employee_management1.jpeg);   
+    background-image: url(assets/img/n/employee-enagement.jpg);   
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
@@ -1777,11 +1777,37 @@ margin: 4px 2px;*/
 
 
 
+
+
+
+.performance {
+    min-height: 720px;
+    position: relative;
+    height: 100%;
+    background: url(assets/img/n/performance-appraisal.jpg) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+@media(max-width:768px){
+    .performance {
+    background-image: url(assets/img/n/performance-appraisal.jpg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
+}
+
+
 .key_performance {
     min-height: 720px;
     position: relative;
     height: 100%;
-    background: url(assets/img/metrics.png) center center;
+    background: url(assets/img/n/Key-performance-indicator.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -1792,7 +1818,7 @@ margin: 4px 2px;*/
 
 @media(max-width:768px){
     .key_performance {
-    background-image: url(assets/img/metrics.png);   
+    background-image: url(assets/img/n/Key-performance-indicator.jpg);   
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
@@ -1825,7 +1851,7 @@ margin: 4px 2px;*/
     min-height: 720px;
     position: relative;
     height: 100%;
-    background: url(assets/img/recruitment1.png) center center;
+    background: url(assets/img/n/recruitment.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -1836,7 +1862,7 @@ margin: 4px 2px;*/
 
 @media(max-width:768px){
     .recruitment {
-    background-image: url(assets/img/recruitment1.png);   
+    background-image: url(assets/img/n/recruitment.jpg);   
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
@@ -1872,7 +1898,7 @@ margin: 4px 2px;*/
     min-height: 720px;
     position: relative;
     height: 100%;
-    background: url(assets/img/process_documentation.png)
+    background: url(assets/img/n/Process-documentation.jpg)
      center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1884,7 +1910,7 @@ margin: 4px 2px;*/
 
 @media(max-width:768px){
     .documentation {
-    background-image: url(assets/img/process_documentation.png);   
+    background-image: url(assets/img/n/Process-documentation.jpg);   
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
@@ -1933,7 +1959,7 @@ margin: 4px 2px;*/
     height: 100vh;
         background-size: 100% 100%;
     background-size: 100% 100%;
-    background: url(assets/img/management1.jpg) center center;
+    background: url(assets/img/n/Our-team.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -1943,13 +1969,12 @@ margin: 4px 2px;*/
 }
 
 
-
 .board {
     min-height: 720px;
     position: relative;
   /*  height: 100%;
     width: 100%;*/
-    background: url(assets/img/board_of_directors.jpg) center center;
+    background: url(assets/img/n/Board-of-Directors.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -1987,7 +2012,7 @@ margin: 4px 2px;*/
        width: 100vw;
     height: 100vh;
         background-size: 100% 100%;
-    background: url(assets/img/bpm-methodology.png) center center;
+    background: url(assets/img/n/our-clients.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -2002,7 +2027,7 @@ margin: 4px 2px;*/
 
 @media(max-width:768px){
     .methodology {
-    background-image: url(assets/img/bpm-methodology.png);   
+    background-image: url(assets/img/n/our-clients.jpg);   
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
@@ -2103,8 +2128,25 @@ a.animated-button.victoria-two:after {
   -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
   transform: translateX(-50%) translateY(-50%) rotate(25deg);
 }
+/*
+    min-height: 720px;
+    position: relative;
+    height: 100%;
+    background: url(assets/img/n/Process-analtics.jpg) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+
+    */
 a.animated-button.victoria-three {
-  border: 2px solid #D24D57;
+  border: 2px solid #003679;
+  background:url();
+  /*background-color: #003679;*/
+  /*background: linear-gradient(360deg, #5c768d 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%);  */
+
 }
 a.animated-button.victoria-three:after {
   background: #D24D57;
@@ -2117,6 +2159,8 @@ a.animated-button.victoria-three:after {
 a.animated-button.victoria-three:hover:after {
   height: 140%;
   opacity: 1;
+    /*background-color: #003679;*/
+
 }
 a.animated-button.victoria-four {
   border: 2px solid #D24D57;
@@ -2437,7 +2481,7 @@ a.animated-button.thar-four:before {
     min-height: 720px;
     position: relative;
     height: 100%;
-    background: url(assets/img/process_analytics1.png) center center;
+    background: url(assets/img/n/Process-analtics.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -2448,7 +2492,7 @@ a.animated-button.thar-four:before {
 
 @media(max-width:768px){
     .process {
-    background-image: url(assets/img/process_analytics1.png);   
+    background-image: url(assets/img/n/Process-analtics.jpg);   
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
@@ -2832,3 +2876,49 @@ th, td {
 }
 
 tr:hover {background-color:#f5f5f5;}
+
+
+.featured_card {
+    max-width: 848px;
+    background: 0 0;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.featured-article__category {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 120%;
+    margin: 0 auto;
+        margin-bottom: 0px;
+    max-width: 90%;
+    display: block !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.featured-article__title a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+.featured-header__category-bg {
+    background-color: #6e1a52;
+    padding: 45px 15px;
+    text-align: center;
+}
+.featured-header-container {
+    width: 100%;
+    position: relative;
+    background-color: #6e1a52;
+    padding: 45px 15px;
+}
