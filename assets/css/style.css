@@ -525,7 +525,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  /*padding-bottom: 10px;*/
   padding-top: 30px;
 }
 
@@ -1567,7 +1567,7 @@ margin: 4px 2px;*/
     min-height: 720px;
     position: relative;
     height: 100%;
-    background: url(assets/img/n/performance_management1.jpg) center center;
+    background: url(assets/img/c/performance_management.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -1578,7 +1578,7 @@ margin: 4px 2px;*/
 
 @media(max-width:768px){
     .performance_management {
-    background-image: url(assets/img/n/performance_management1.jpg);   
+    background-image: url(assets/img/c/performance_management1.jpg);   
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
@@ -1699,7 +1699,9 @@ margin: 4px 2px;*/
 }
 
 
-
+.web-img-class{
+  height: 50px;
+}
 .web-text{
  font-weight: bolder;
  text-align: center;
@@ -1755,7 +1757,7 @@ margin: 4px 2px;*/
     min-height: 720px;
     position: relative;
     height: 100%;
-    background: url(assets/img/n/Hr-resttructure.jpg) center center;
+    background: url(assets/img/c/Hr-resttructure1.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -1850,7 +1852,7 @@ margin: 4px 2px;*/
     min-height: 720px;
     position: relative;
     height: 100%;
-    background: url(assets/img/opening.jpg) center center;
+    background: url(assets/img/c/job-opeing.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -1861,7 +1863,7 @@ margin: 4px 2px;*/
 
 @media(max-width:768px){
     .opening {
-    background-image: url(assets/img/opening.jpg);   
+    background-image: url(assets/img/c/job-opeing.jpg);   
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
@@ -1889,6 +1891,31 @@ margin: 4px 2px;*/
     background-position:center center;
     }
 }
+
+
+
+.calender {
+    min-height: 720px;
+    position: relative;
+    height: 100%;
+    background: url(assets/img/c/calendar.jpg) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+@media(max-width:768px){
+    .calender{
+    background-image: url(assets/img/c/calendar.jpg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
+}
+
 
 .international {
     min-height: 720px;
