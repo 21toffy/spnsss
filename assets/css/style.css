@@ -1443,7 +1443,7 @@ margin: 4px 2px;*/
   text-align: left;
   justify-content: left;
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .pmarge{
@@ -1563,6 +1563,27 @@ margin: 4px 2px;*/
     }
 }
 
+.performance_management {
+    min-height: 720px;
+    position: relative;
+    height: 100%;
+    background: url(assets/img/n/performance_management1.jpg) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+@media(max-width:768px){
+    .performance_management {
+    background-image: url(assets/img/n/performance_management1.jpg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
+}
 
 .gallery{
   
@@ -1955,7 +1976,7 @@ margin: 4px 2px;*/
 .management {
     min-height: 720px;
     position: relative;
-       width: 100vw;
+       width: 99vw;
     height: 100vh;
         background-size: 100% 100%;
     background-size: 100% 100%;
