@@ -61,28 +61,7 @@ function getItems() {
   
 }  
 
-  function deleteItem (productId) {
-        if (productId == null) return;
-        $('#ProductSearchPanel').hide();
-        $('#DeleteButton').show();
 
-        $.ajax({
-
-            url: 'http://127.0.0.1:5000/acknowledged' + productId,
-            cache: false,
-            dataType: 'json',
-            method: "GET", 
-            success: function (product) {
-            console.log('deleted')
-          
-
-            },
-        error: function(error) {  
-
-  
-        }  
-        });
-    }
 
 
 function deleteItem(value) {  
@@ -123,17 +102,17 @@ function deleteItem(value) {
         }  
   
     })  
-         // console.log('dnnf')
+         console.log('dnnf')
 
 
 
 
-        //     console.log(JSON.stringify(error));  
-        //     console.log(productId)
-        // console.log(productId.id)
-        // console.log(productId.value)
-        // console.log(productId.key)
-        // console.log(productId.index)
+            console.log(JSON.stringify(error));  
+            console.log(productId)
+        console.log(productId.id)
+        console.log(productId.value)
+        console.log(productId.key)
+        console.log(productId.index)
   
 }  
 
