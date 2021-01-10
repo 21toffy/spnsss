@@ -19,6 +19,8 @@ function getItems() {
     $.ajax({  
   
         async: true,  
+        // url: 'http://127.0.0.1:5000/get-downloads',  
+
         url: 'https://spns.herokuapp.com/get-downloads',  
         method: "GET", 
 
@@ -43,7 +45,7 @@ function getItems() {
                  "</td><td>" + value.service + 
                  "</td><td>" + value.date + 
                  "</td><td>" + value.acknowledged + 
-                 "</td><td><a href='#' data-target='#ModalForUpdateEmployee' data-toggle='modal' onclick='edit(" + value.id + ")'><img src='https://sharepointtechie.sharepoint.com/sites/automatedwiki/SiteAssets/CRUD/003-edit-document.png'></a></td><td><a href='#' onclick='deleteItem(" + value.phone + ");'>del</a></td></tr>";  
+                 "</td><td><a href='#' data-target='#ModalForUpdateEmployee' data-toggle='modal' onclick='edit(" + value.id + ")'>edit</a></td><td><a href='#' onclick='deleteItem(" + value.phone + ");'>del</a></td></tr>";  
                 console.log(value);
                 $('.table tbody').append(html);  
   
@@ -65,16 +67,8 @@ function getItems() {
 
 
 function deleteItem(value) {  
-     console.log(JSON.stringify(error));  
-            console.log(productId)
-        console.log(productId.id)
-        console.log(productId.value)
-        console.log(productId.key)
-        console.log(productId.index)
 
-    $.ajax({  
-  
-  
+    $.ajax({    
         url: '127.0.0.1:5000/acknowledged' + productId,  
         method: "GET",  
         headers: {  
@@ -84,36 +78,20 @@ function deleteItem(value) {
             "IF-MATCH": "*",  
             "X-HTTP-Method": "GET"  
         },  
-        success: function(data) {  
+        success: function(value) {  
   
-            console.log("Deleted!", "Item Deleted successfully", "success");  
-  
-            // if ($.fn.DataTable.isDataTable('#subsiteList')) {  
-            //     $('#subsiteList').DataTable().destroy();  
-            // }  
-            // $('#subsiteList tbody').empty();  
-  
+            console.log("Deleted!", "Item Deleted successfully", "success");    
   
             getItems();  
         },  
-        error: function(error) {  
+        error: function(error) { 
+          console.log(error);
             console.log(JSON.stringify(error));  
   
         }  
   
     })  
-         console.log('dnnf')
-
-
-
-
-            console.log(JSON.stringify(error));  
-            console.log(productId)
-        console.log(productId.id)
-        console.log(productId.value)
-        console.log(productId.key)
-        console.log(productId.index)
-  
+      
 }  
 
 
