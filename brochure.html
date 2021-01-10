@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>SPNS | News </title>
+  <title>SPNS | Brochure </title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -23,15 +23,16 @@
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+
+
 </head>
 
 <body>
-<!-- ======= Top Bar ======= -->
+ <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-none d-lg-block">
     <div class="container clearfix">
       <div class="contact-info float-left">
@@ -61,7 +62,8 @@
         <a href="application.html"><button class="button"> Apply </button></a>
 
       </div>  
-       <nav class="nav-menu float-center d-none d-lg-block">
+
+        <nav class="nav-menu float-center d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
           <li class="drop-down"><a href="#">About Us</a>
@@ -145,19 +147,46 @@
 
   </header><!-- End Header -->
 
-
-<!--   <form>
-    <p><b>Login</b></p>
-    <input type="name" id = "name" name="name" placeholder="name" required>   
-    <input type="email" name="email" placeholder="email" id='email' >
-        <input type="company" id = "company" name="company" placeholder="company" required>   
-    <input type="phone" name="phone" placeholder="phone" id='phone' >
-        <input type="service" id = "service" name="service" placeholder="service" required>   
-    <button  onclick="post_this()" type="button" name="Submit"><b>Submit</b>  </button>
-</form>
- -->
+    <!-- ======= Our Bussiness Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="" data-aos="fade-up" data-aos-delay="100">
 
 
+        
+        <div class="row no-gutters portfolio-container" style="">
+
+          <div class="col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/bussiness_process.jpg" class="img-fluid" alt="">
+<!--               <div class="portfolio-info">
+
+              </div> -->
+            </div>
+
+          </div>
+
+
+          <div class="col-md-6 portfolio-item filter-web">
+             <div class="breadcrumb-area" style="height: 582px; background:#f5f9fc ;color: #DBAE65; padding:200px 50px 200px 30px; font-weight: bolder; ">
+   <div class="container ">
+      <div class="breadcrumb-txt">
+         <div class="row">
+            <div class="col-xl-10 col-lg-8 col-sm-10 ">
+              <h2 class="web-text">Click On This Button To View Our Brochure</h2>
+                <a href="webinar.html" class="btn btn-sm animated-button victoria-one"><span style="color: #000;">Brochure</span></a>
+             </div>
+
+         </div>
+      </div>
+
+   </div>
+   <div class="breadcrumb-area-overlay" style="background-color: #9A5212;opacity: 0.80;"></div>
+
+</div>
+</div>     
+  </div>
+      </div>
+    </section><!-- End Our Bussiness Section -->
 
 
 
@@ -165,17 +194,21 @@
 
 
 
-<div class="d-flex justify-content-center"> 
-            <div class="spinner-border" 
-                 role="status" id="loading"> 
-                <span class="sr-only">Loading...</span> 
-            </div> 
-        </div> 
- <div class="container">
-        <table id="employees"></table> 
-          
-        </div>
-   <!-- ======= Footer ======= -->
+<!--  <div class="breadcrumb-area" style="height: 582px; background-image:url(assets/img/webinar.jpg) ;color: #fff; padding:200px 50px 200px 30px; font-weight: bolder; ">
+   <div class="container ">
+      <div class="breadcrumb-txt">
+         <div class="row">
+            <div class="col-xl-10 col-lg-8 col-sm-10 ">
+              <h2 class="web-text" style="color: #DBAE65;">Sign Up For Our Monthly webinar</h2>
+                           <a href="webinar.html" class="te btn btn-sm animated-button victoria-three">Sign up</a>              
+            </div>
+         </div>
+      </div>
+   </div>
+</div> -->
+
+
+<!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
@@ -276,147 +309,6 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
-<script type="text/javascript">
-
-// fetch('https://spns-forms.herokuapp.com/get-downloads').then(function (response) {
-//   // The API call was successful!
-//   return response.json();
-// }).then(function (data) {
-//   // This is the JSON from our response
-//   console.log(data);
-// }).catch(function (err) {
-//   // There was an error
-//   console.warn('Something went wrong.', err);
-// });
-
-
-function dosomething(val){
-  console.log(val);
-}
-
-
-
-
-
-// api url 
-const api_url =  
-      "https://spns.herokuapp.com/get-downloads"; 
-  
-// Defining async function 
-async function getapi(url) { 
-    
-    // Storing response 
-    const response = await fetch(url); 
-    
-    // Storing data in form of JSON 
-    var data = await response.json();
-    // console.log(data); 
-
-
-
-// Iterate over the property names:
-
-
-    // console.log(data); 
-    if (response) { 
-        hideloader(); 
-    } 
-    show(data); 
-} 
-// Calling that async function 
-getapi(api_url); 
-  
-// Function to hide the loader 
-function hideloader() { 
-    document.getElementById('loading').style.display = 'none'; 
-} 
-
-
-// Function to define innerHTML for HTML table 
-function show(data) { 
-    let tab =  
-        `<tr>
-        <th>S/N</th>  
-          <th>name</th> 
-          <th>email</th> 
-          <th>Company</th> 
-          <th>Contact</th>
-          <th>service</th>
-          <th>action</th> 
-         </tr>`; 
-    
-
-
-Object.entries(data.downloads).map(obj => {
-   const key   = obj[0];
-   const value = obj[1];
-//    console.log(key);
-// console.log(value.name);
-
-        tab += `<tr>  
-    <td>${value.id} </td>     
-    <td>${value.name} </td> 
-    <td>${value.email}</td> 
-    <td>${value.company}</td>  
-    <td>${value.phone}</td>
-    <td>${value.service}</td>
-    <td onclick="dosomething(this.key)>submit</td> 
-
-</tr>`;
-});
-
-
-    // Setting innerHTML as tab variable 
-    document.getElementById("employees").innerHTML = tab; 
-} 
-
-</script>
-
- <script type="text/javascript">
-
-     function post_this() {
-        const url = 'https://spns.herokuapp.com/download-form';
-        // post body data 
-        const user = {
-            company: document.getElementById('company').value,
-            email: document.getElementById('email').value,
-            name: document.getElementById('name').value,
-            phone: document.getElementById('phone').value,
-            service: document.getElementById('service').value
-        };
-        // request options
-        const options = {
-            method: 'POST',
-            body: JSON.stringify(user),
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        }
-        // send POST request
-        fetch(url, options)
-            .then(res => {
-                if (res.status == 200) {
-                // swal("!", "Data Submitted Successfully", "success");
-                var link = document.createElement('a');
-                link.href = 'assets/BPPR July 2017 full Oct 10th print.pdf';
-                link.download = 'Insights.pdf';
-                link.dispatchEvent(new MouseEvent('click'));
-                swal("!", "Data Submitted Successfully", "success");
- 
-                } else {
-                swal("Error!", "An Error Occoured", "error");
-                }
-                res.json();
-                console.log(res)
-            })
-            .catch(err => {
-                console.log(err)
-                swal("Error!", "An Error Occoured", "error");
-            });
-    } 
-</script>
-
 
 </body>
 

@@ -4,6 +4,141 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+$(document).ready(function() {  
+  
+    getItems();  
+  
+});  
+
+
+
+
+function getItems() {  
+  
+    $.ajax({  
+  
+        async: true,  
+        url: 'https://spns.herokuapp.com/get-downloads',  
+        method: "GET", 
+
+  
+        headers: {  
+            "accept": "application/json;odata=verbose",  
+            "content-type": "application/json;odata=verbose"  
+  
+        },  
+        success: function(data) {  
+            // data = data.d.results;  
+            console.log(data);  
+            $.each(data, function(index, val) {  
+                 const key   = index[0];
+                 const value = val[1];
+  
+                var html = 
+                 "<tr><td>" + value.name +
+                 "</td><td>" + value.email + 
+                 "</td><td>" + value.phone + 
+                 "</td><td>" + value.company + 
+                 "</td><td>" + value.service + 
+                 "</td><td>" + value.date + 
+                 "</td><td>" + value.acknowledged + 
+                 "</td><td><a href='#' data-target='#ModalForUpdateEmployee' data-toggle='modal' onclick='edit(" + value.id + ")'><img src='https://sharepointtechie.sharepoint.com/sites/automatedwiki/SiteAssets/CRUD/003-edit-document.png'></a></td><td><a href='#' onclick='deleteItem(" + value.phone + ");'>del</a></td></tr>";  
+                console.log(value);
+                $('.table tbody').append(html);  
+  
+            });  
+  
+            table = $('#subsiteList').DataTable();  
+        },  
+        error: function(error) {  
+            console.log(JSON.stringify(error));  
+  
+        }  
+  
+    })  
+  
+  
+}  
+
+  function deleteItem (productId) {
+        if (productId == null) return;
+        $('#ProductSearchPanel').hide();
+        $('#DeleteButton').show();
+
+        $.ajax({
+
+            url: 'http://127.0.0.1:5000/acknowledged' + productId,
+            cache: false,
+            dataType: 'json',
+            method: "GET", 
+            success: function (product) {
+            console.log('deleted')
+          
+
+            },
+        error: function(error) {  
+
+  
+        }  
+        });
+    }
+
+
+function deleteItem(value) {  
+     console.log(JSON.stringify(error));  
+            console.log(productId)
+        console.log(productId.id)
+        console.log(productId.value)
+        console.log(productId.key)
+        console.log(productId.index)
+
+    $.ajax({  
+  
+  
+        url: '127.0.0.1:5000/acknowledged' + productId,  
+        method: "GET",  
+        headers: {  
+            "accept": "application/json;odata=verbose",  
+            "content-type": "application/json;odata=verbose",  
+            "X-RequestDigest": $("#__REQUESTDIGEST").val(),  
+            "IF-MATCH": "*",  
+            "X-HTTP-Method": "GET"  
+        },  
+        success: function(data) {  
+  
+            console.log("Deleted!", "Item Deleted successfully", "success");  
+  
+            // if ($.fn.DataTable.isDataTable('#subsiteList')) {  
+            //     $('#subsiteList').DataTable().destroy();  
+            // }  
+            // $('#subsiteList tbody').empty();  
+  
+  
+            getItems();  
+        },  
+        error: function(error) {  
+            console.log(JSON.stringify(error));  
+  
+        }  
+  
+    })  
+         // console.log('dnnf')
+
+
+
+
+        //     console.log(JSON.stringify(error));  
+        //     console.log(productId)
+        // console.log(productId.id)
+        // console.log(productId.value)
+        // console.log(productId.key)
+        // console.log(productId.index)
+  
+}  
+
+
+
 !(function($) {
   "use strict";
 
