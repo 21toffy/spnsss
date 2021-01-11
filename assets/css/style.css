@@ -2649,7 +2649,16 @@ h2 {
 }
 
 
+.broch-img{
+  margin: 150px 0 10px 120px;
 
+}
+
+.qrtext{
+  font-weight: bolder;
+  margin-top: 30px;
+  color: #DBAE65;
+}
 .research {
     min-height: 720px;
     position: relative;
