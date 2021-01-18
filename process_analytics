@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>SPNS | Process Analytics</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+ <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-none d-lg-block">
+    <div class="container clearfix">
+      <div class="contact-info float-left">
+        <i class="icofont-envelope"></i><a href="mailto:info@spnsng.com">info@spnsng.com</a>
+        <i class="icofont-phone"></i> +234 8128073535 
+      </div>
+      <div class="social-links float-right">
+        <a href="https://Twitter.com/ConsultingSpns" class="twitter"><i class="icofont-twitter"></i></a>
+        <a href="https://facebook.com/SpnsConsultingLtd" class="facebook"><i class="icofont-facebook"></i></a>
+        <a href="https://Instagram.com/spnsconsulting" class="instagram"><i class="icofont-instagram"></i></a>
+        <!-- <a href="#" class="skype"><i class="icofont-skype"></i></a> -->
+        <a href="https://linkedin.com/company/spns" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section>
+
+
+ <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <div class=" float-left">
+        <a href="https://www.spnsng.com"><img class="logo_image" src="assets/img/spns_logo.png"></a>
+      </div>
+          </div>
+          <div class="float-right">
+        <a href="application"><button class="button"> Apply </button></a>
+
+      </div>  
+
+        <nav class="nav-menu float-center d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="https://www.spnsng.com">Home</a></li>
+          <li class="drop-down"><a href="#">About Us</a>
+            <ul>
+              <li><a href="brochure">Brochure</a></li>
+              <li><a href="overview">Overview</a></li>
+              <li class="drop-down"><a href="#">Our Team</a>
+                <ul>
+                  <li><a href="management">Management Team</a></li>
+                  <li><a href="board">Our Board</a></li>
+                  
+                </ul>
+              </li>
+              <li><a href="methodology">Our Client Base</a></li>
+              
+            </ul>
+          </li>
+          <li class="drop-down"><a href="#">Expertise</a>
+            <ul>
+              <li class="drop-down"><a href="#">Business Process Management</a>
+                <ul>
+                  <li><a href="process_analytics">Process Analytics</a></li>
+                  <li><a href="process_documentation">Process Documentation & Improvement</a></li>
+                  <li><a href="monitoring">Service Quality Monitoring (SQM)</a></li>
+                  <!-- <li><a href="mystery_shoping">Mystery Shopping</a></li> -->
+                  </ul>
+              </li>
+             <li class="drop-down"><a href="#">Strategy</a>
+                <ul>
+                  <!-- <li><a href="international_market">International Market Entry</a></li> -->
+                  <li><a href="corporate_strategy">Corporate Strategy Development</a></li>
+                  
+                  </ul>
+              </li>
+
+              <li class="drop-down"><a href="#">Human Resources Management</a>
+                <ul>
+                  <li><a href="hr_restructure_revamp">HR Setup & Restructure</a></li>
+                  <li><a href="recruitment">Recruitment</a></li>
+
+                  <li><a href="employee_engagement_management">Employee Engagement Management</a></li>
+                  <li><a href="performance_management">Performance Management</a></li>
+                  <li><a href="performance_appraisal">Performance Appraisal Data Generation (Metric Source)</a></li>
+                  <li><a href="learning-and-development">Learning and Development</a></li>
+                  </ul>
+              </li>
+
+              <li class="drop-down"><a href="#"> Outsourcing</a>
+                <ul>
+                  <li><a href="process_outsourcing">Process Outsourcing</a></li>
+                  <li><a href="manpower_outsourcing">Manpower Outsourcing</a></li>
+                  
+                  </ul>
+              </li>
+            </ul>
+          </li>
+
+    <li class=""><a href="careers">Careers</a>
+          <!--   <ul>
+
+              <li><a href="external_openings">External Openings (Client Based)</a></li>
+              <li><a href="internal_openings">Internal Openings(SPNS Consulting)</a></li>
+            </ul> -->
+          </li>
+
+          <li class="drop-down"><a href="">Insights</a>
+            <ul>
+              <li><a href="calendar">Learning Calendar</a></li>
+              <li><a href="research">Research</a></li>
+              <li><a href="blog">News</a></li>
+              <li><a href="gallery">Gallery</a></li>
+<!--               <li><a href="faq">FAQ</a></li>
+ -->            </ul>
+          </li>
+              <li class="active">
+                <a href="training-courses">Training Courses</a>
+              </li>
+              <li><a href="contact">Contact Us</a></li>
+
+        </ul>
+
+      </nav><!-- .nav-menu -->
+
+
+  </header><!-- End Header -->
+
+<div class="process">
+</div>
+
+<!-- <br><br><br> -->
+
+
+ <div class="container">
+    <div class="row">
+
+    <div class="col-md-6">
+ <img class="img-responsive" style="margin-top: 90px; width: 100%; height: 250px; background-repeat: no-repeat;" src="assets/css/assets/img/process_analytics2.png";  >      
+    </div>
+
+    <div class="col-md-6">
+      <!-- ======= Our Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title">
+           <h5 class="marg-class-2">Process Analytics Solution Scope</h5>
+           <h6 class="marg-class-3">This solution is divided into different phases; Below are the various phases:</h6>   
+        </div>
+        <ul class="">
+           <li>Process documentation audit</li>
+           <li>Customer journey mapping</li>
+           <li>Strategy analysis and insight generation</li>
+           <li>Strategy and process alignment adequacy analysis</li>
+           <li>Process monitoring (business process tracker).</li>
+           <li>Process innovation</li>
+         </ul>
+    </section><!-- End Our Team Section -->
+    </div>
+  </div>
+ </div>
+
+
+<br><br><br>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <!-- ======= Our Team Section ======= -->
+
+        <div class="section-title-marg">
+           <h3 class="marg-class-2">The Process Analytics Solution Benefits: </h3>
+          <p class="pmargeleft">
+           SPNS Consulting is a strategic human capital development firm with strength in the enhancement of human resources management activities for businesses.
+            Generating returns on investment is deeply a function of strategic human resources management practice. Statistics show that 60% to 65% of the human resources management practitioners focus mainly on operational human resources management due to inadequate knowledge of the strategic part of human resources management activities.
+            <br>
+
+            We are out to assist organizations in the transformation of their human resources management functionalities from just operation to cover both operations and strategy.
+            The core strength of SPNS Consulting can be captioned as: <span style="font-weight: bold;">Linking daily activities to strategic results</span>. With over 15 years’ industry experience, we are poised to aid organizations towards the achievement of their set goals and objectives through strategic offerings on: 
+        </p>    
+      </div>
+
+          <ol class="">
+            <li>Improved strategic objectives achievement capacity</li>
+            <li>Improved productivity.</li>
+            <li>Improve profitability. </li>
+            <li>Improve cost and expenditure structure. </li>
+
+          </ol>
+    </div>
+
+     <div class="col-md-6">
+         <img class="img-responsive" style="margin-top: 90px; width: 100%; height: 400px; background-repeat: no-repeat;" src="assets/css/assets/img/process_analytics1.png";  >      
+      </div>
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <br><br>
+        <div class="row ashrow">
+          <!-- <h3>Our Board</h3> -->
+
+          <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up">
+            <h2> Careers </h2>
+            <p>
+              SPNS is all about you. Whether you’re just starting out or are an experienced professional, your future starts here.
+            </p>
+             <a href="careers" class="btn btn-sm animated-button victoria-one">Explore SPNS Careers</a>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <h2> Contact Us </h2>
+            <p>
+             Get to know SPNS leadership, keep up with our latest news, and find the regional contact person you need.
+            </p>
+             <a href="contact" class="btn btn-sm animated-button victoria-one">Visit Now</a>
+          </div>
+
+           <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up">
+            <h2> Offices </h2>
+            <p>
+              Global network. Global access. We are present around the world. Find us wherever you need us.
+            </p>
+             <a href="#" class="btn btn-sm animated-button victoria-one">Locations Worldwide</a>
+        
+          </div>        
+        </div>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+      <div class="">
+        <img class="logo_footer" src="assets/img/spns_logo.png">
+      </div>
+                  <p>
+              Today, SPNS Consulting has grown to become relevant the areas of Business Process Management, Corporate Strategy, Enterprise Resource Planni <a href="overview">see more...</a>
+            </p>
+           
+           
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="monitoring">Service Quality Monitoring</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="performance_appraisal">Performance Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="learning-and-development">Learning and Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="corporate_strategy">Corporate Strategy Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="recruitment">Recruitment</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Contact Us</h4>
+            <p>
+              5 Adeboye Solanke Avenue, Allen, Ikeja Lagos, Nigeria<br><br>
+              <strong>Phone:</strong> +234 8128073535 <br>
+              <strong>Email:</strong> <a href="mailto:info@spnsng.com">info@spnsng.com</a><br>
+            </p>
+            <br>
+
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <!-- <h4>Our Newsletter</h4> -->
+            <!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+
+<div id="mc_embed_signup">
+              <p class="text-capitalize">Subscribe to get latest news and connect with us.</p>
+
+<form action="https://spnsng.us7.list-manage.com/subscribe/post?u=570300b2f0164a301cef1a1e1&amp;id=1f3bead0d4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+  <!-- <label for="mce-EMAIL">Subscribe</label> -->
+  <input type="email" value="" name="b_570300b2f0164a301cef1a1e1_1f3bead0d4" class="email" id="mce-EMAIL" placeholder="email address" required><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="">
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+   <!--  <div aria-hidden="true"><input type="text" name="b_570300b2f0164a301cef1a1e1_1f3bead0d4" tabindex="-1" value=""></div> -->
+<!--     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div> -->
+    </div>
+</form>
+</div>
+
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+      Copyright © 2019. All rights reserved by Tomationng
+      </div>
+      <div class="credits">
+
+         <div class="social-links mt-3">
+                           <a href="https://Twitter.com/ConsultingSpns" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="https://facebook.com/SpnsConsultingLtd" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://Instagram.com/spnsconsulting" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+              <a href="http://linkedin.com/company/spns" class="linkedin"><i class="bx bxl-linkedin"></i></a>   
+            </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

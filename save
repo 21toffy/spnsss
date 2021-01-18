@@ -1,0 +1,114 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <!-- ======= Our Team Section ======= -->
+
+        <div class="section-title-marg">
+           <h3 class="marg-class-2">PERFORMANCE MANAGEMENT</h3>
+          <p class="pmargeleft">
+           Performance management in any organization aims at extensively improving organizational performance while sustaining performance, productivity and the motivation of employees.
+In recent years, it has become obvious that the traditional performance management is ineffective. Thus, making agile performance management, continuous performance management, popular to forward-looking organizations.
+            <br><br>
+            Performance management in itself is a complex process which entails information gathering
+through monitoring task completion, feedback and discussions. An effective performance management system requires commitment and dedication from the human resources department and managers and employees, as well as, collection of quality of the data. It is also important to note that the performance management process is bound to fail when the people involved are not fully invested in it. As important as the performance management process is, it could also be overwhelming and challenging for organizations. 
+This is where SPNS Consulting steps in. 
+
+           
+        </p>    
+      </div>
+
+    </div>
+
+     <div class="col-md-6">
+         <img class="img-responsive" style="margin-top: 90px; width: 100%; height: 400px; background-repeat: no-repeat;" src="assets/css/assets/img/c/performance_management.jpg";  >      
+      </div>
+
+
+</div>
+</div>
+</div>
+
+
+
+webinar.jpg
+
+
+
+
+
+
+
+
+ <section id="hero">
+    <div class="hero-container">
+
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url('assets/img/enterprise_transformation.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <!-- <h2 class="animated fadeInDown">Welcome to <span>Mamba</span></h2> -->
+                <!-- <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p> -->
+                <!-- <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a> -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url('assets/img/performance_management.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <!-- <h2 class="animated fadeInDown">Lorem Ipsum Dolor</h2> -->
+                <!-- <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p> -->
+                <!-- <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a> -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url('assets/img/process_documentation.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+
+              </div>
+            </div>
+          </div>
+           <!-- Slide 4 -->
+          <div class="carousel-item" style="background-image: url('assets/img/recruitment.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <!-- <h2 class="animated fadeInDown">Sequi ea ut et est quaerat</h2> -->
+                <!-- <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p> -->
+                <!-- <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a> -->
+              </div>
+            </div>
+          </div>
+ <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url('assets/img/training.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <!-- <h2 class="animated fadeInDown">Sequi ea ut et est quaerat</h2> -->
+                <!-- <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p> -->
+                <!-- <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->

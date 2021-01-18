@@ -13,6 +13,22 @@ $(document).ready(function() {
 
 
 
+// var message = "";
+
+// $("#applicationform").on("submit", function() {
+//     message = $("#contactform").serialize();
+//     $.ajax({
+//         url:  "//formspree.io/tomationsolutionsng@gmail.com", 
+//         method: "POST",
+//         data: {message: message},
+//         dataType: "json"
+//     });
+//     alert('Thanks for Applying, we\'ll be in touch promptly.');
+//     return false;
+// });
+
+
+
 
 function getItems() {  
   

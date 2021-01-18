@@ -146,7 +146,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin: 0;
   max-height: 40px;
 }
+/*.training{
+  background-color: #DBAE65;
+  padding: px 1px;
 
+}*/
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -161,13 +165,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   position: relative;
   white-space: nowrap;
   float: left;
+
 }
 
 .nav-menu a {
   display: block;
   position: relative;
   color: #5c768d;
-  padding: 12px 15px;
+  padding: 12px 1px;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
@@ -360,10 +365,21 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh - 114px);
+  height: 445px;
   padding: 0;
   overflow: hidden;
-  /*margin-bottom: 0px;*/
+}
+
+
+@media(max-width:768px){
+    #hero {
+  width: 100%;
+  height: 5px;
+  padding: 0;
+    margin-bottom: -400px;
+
+  overflow: hidden;
+    }
 }
 
 #hero .carousel-item {
@@ -392,6 +408,7 @@ arousel-item
 
 #hero .carousel-container {
   display: flex;
+  /*height: 100px;*/
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -780,7 +797,7 @@ section {
   box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);
   padding: 30px;
   background: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .counts .count-box i {
@@ -874,13 +891,16 @@ section {
 /*--------------------------------------------------------------
 # Our Portfolio
 --------------------------------------------------------------*/
+/*.portfolio{
+  padding:10px 0 0 10px;
+}*/
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 
 .portfolio #portfolio-flters {
   padding: 0;
-  margin: 0 0 35px 0;
+  margin: 0 0 0px 0;
   list-style: none;
   text-align: center;
 }
@@ -918,6 +938,7 @@ section {
 
 .portfolio .portfolio-wrap img {
   transition: 0.3s;
+
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -981,6 +1002,21 @@ section {
 .portfolio .portfolio-wrap:hover img {
   transform: scale(1.1);
 }
+
+
+
+
+.webb img{
+  transition: 0.3s;
+  height: 482px;
+  width: 800px;
+}
+
+/*div.webb:hover {
+  transform: scale(1.1);
+   
+}*/
+
 
 /*--------------------------------------------------------------
 # Our Team
@@ -1389,18 +1425,17 @@ section {
 }
 
 .button {
-  background-color: #ddd;
+  /*background-color: #ddd;*/
   border: none;
   color: #fff;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 4px 2px;
+  margin: 10px  0 0px 2px;
   cursor: pointer;
   border-radius: 25px;
   margin:10px 90px 0 0 ;
-
   background: #DBAE65;
   min-width: 150px;
   font-weight: bolder;
@@ -1435,8 +1470,9 @@ margin: 4px 2px;*/
 .marg-class{
    margin:30px;
   text-align: center;
+  
   /*justify-content: start;*/
-  font-weight: bolder;
+  font-weight:hr bolder;
   font-size: 16px; 
 }
 
@@ -1446,6 +1482,13 @@ margin: 4px 2px;*/
   justify-content: left;
   font-weight: bolder;
   font-size: 20px;
+}
+.marg-class-3{
+  margin:30 0px;
+  text-align: left;
+  justify-content: left;
+  font-weight: bolder;
+  font-size: 17px;
 }
 
 .pmarge{
@@ -1544,7 +1587,7 @@ margin: 4px 2px;*/
 
 
 .homepage {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/n/overview.jpg) center center;
@@ -1553,6 +1596,7 @@ margin: 4px 2px;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 
@@ -1562,11 +1606,68 @@ margin: 4px 2px;*/
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
+    min-height: 300px;
     }
 }
 
+
+.webinar {
+
+  background-image: url(assets/css/assets/img/Webinar_backdrop.jpg);
+  height: 590px;
+  width: 100%;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+}
+
+@media(max-width:768px){
+    .webinar {
+      width: 100%;
+
+    /*background-image: url(assets/img/n/overview.jpg);   */
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    min-height:250px;
+/*webkit-background-size: cover;*/
+    -moz-background-size: cover;
+    background-size: cover;    }
+}
+
+
+
+
+.news {
+    min-height: 420px;
+    position: relative;
+    height: 100%;
+    background: url(assets/img/n/news.jpg) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height:50%;
+    color: #fff;
+}
+
+@media(max-width:768px){
+    .new {
+    background-image: url(assets/img/n/news.jpg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    min-height:300px;
+            min-height: 300px;
+
+    }
+}
+
+
+
 .performance_management {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/c/performance_management.jpg) center center;
@@ -1575,6 +1676,7 @@ margin: 4px 2px;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 
@@ -1584,12 +1686,15 @@ margin: 4px 2px;*/
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
+        min-height: 300px;
+
     }
 }
 
 .gallery{
   
-      min-height: 720px;
+      min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/performance_management.jpg) center center;
@@ -1598,6 +1703,7 @@ margin: 4px 2px;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 
@@ -1607,12 +1713,15 @@ margin: 4px 2px;*/
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
+            min-height: 300px;
+
     }
 }
 
 
 .man_power {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/n/manpower-outsourcing-main.jpg) center center;
@@ -1621,6 +1730,7 @@ margin: 4px 2px;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 @media(max-width:768px){
@@ -1629,11 +1739,12 @@ margin: 4px 2px;*/
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
     }
 }
 
 .process_outsourcing {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/n/Process-outsourcing.jpg) center center;
@@ -1642,6 +1753,7 @@ margin: 4px 2px;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 @media(max-width:768px){
@@ -1650,13 +1762,14 @@ margin: 4px 2px;*/
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
     }
 }
 
 
 
 .faq {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/FAQ.jpg) center center;
@@ -1665,6 +1778,7 @@ margin: 4px 2px;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 @media(max-width:768px){
@@ -1673,6 +1787,7 @@ margin: 4px 2px;*/
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
     }
 }
 
@@ -1680,7 +1795,7 @@ margin: 4px 2px;*/
 
 
 .home-webinar{
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 30%;
     background: url(assets/img/webinar.jpg) center center;
@@ -1689,6 +1804,7 @@ margin: 4px 2px;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 @media(max-width:768px){
@@ -1697,6 +1813,7 @@ margin: 4px 2px;*/
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
     }
 }
 
@@ -1710,7 +1827,7 @@ margin: 4px 2px;*/
 }
 
 .sqm {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/n/mystery-shoppingg.jpg) center center;
@@ -1719,6 +1836,7 @@ margin: 4px 2px;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 
@@ -1728,12 +1846,13 @@ margin: 4px 2px;*/
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
     }
 }
 
 
 .corporate {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/n/corporate-strategy.jpg) center center;
@@ -1742,6 +1861,7 @@ margin: 4px 2px;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 
@@ -1751,12 +1871,13 @@ margin: 4px 2px;*/
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
     }
 }
 
 
 .hr_restructure_revamp {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/n/Hr-resttructure.jpg) center center;
@@ -1765,6 +1886,7 @@ margin: 4px 2px;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 
@@ -1774,12 +1896,38 @@ margin: 4px 2px;*/
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
+    }
+}
+
+
+.captured {
+    min-height: 420px;
+    position: relative;
+    height: 100%;
+    background: url(assets/img/n/captured.jpg) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height:50%;
+    color: #fff;
+}
+
+@media(max-width:768px){
+    .captured {
+    background-image: url(assets/img/n/captured.jpg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    min-height:300px;
     }
 }
 
 
 .employee_engagement {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/n/employee-enagement.jpg) center center;
@@ -1788,6 +1936,7 @@ margin: 4px 2px;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 
@@ -1797,6 +1946,7 @@ margin: 4px 2px;*/
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
     }
 }
 
@@ -1806,7 +1956,7 @@ margin: 4px 2px;*/
 
 
 .performance {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/n/performance-appraisal.jpg) center center;
@@ -1815,6 +1965,7 @@ margin: 4px 2px;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 
@@ -1824,12 +1975,13 @@ margin: 4px 2px;*/
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
     }
 }
 
 
 .key_performance {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/n/Key-performance-indicator.jpg) center center;
@@ -1838,6 +1990,7 @@ margin: 4px 2px;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 
@@ -1847,11 +2000,12 @@ margin: 4px 2px;*/
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
     }
 }
 
 .opening {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/c/job-opeing.jpg) center center;
@@ -1860,6 +2014,7 @@ margin: 4px 2px;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 
@@ -1869,11 +2024,12 @@ margin: 4px 2px;*/
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
     }
 }
 
 .recruitment {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/n/recruitment.jpg) center center;
@@ -1882,6 +2038,7 @@ margin: 4px 2px;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 
@@ -1891,6 +2048,7 @@ margin: 4px 2px;*/
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
     }
 }
 
@@ -1926,7 +2084,7 @@ padding:1em 1.5em;
 
 
 .calender {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/c/calendar.jpg) center center;
@@ -1935,6 +2093,7 @@ padding:1em 1.5em;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 
@@ -1944,12 +2103,13 @@ padding:1em 1.5em;
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
     }
 }
 
 
 .international {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/international_market2.jpg) center center;
@@ -1958,6 +2118,7 @@ padding:1em 1.5em;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 @media(max-width:768px){
@@ -1966,6 +2127,7 @@ padding:1em 1.5em;
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
     }
 }
 
@@ -1974,7 +2136,7 @@ padding:1em 1.5em;
 
 
 .documentation {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/n/Process-documentation.jpg)
@@ -1984,6 +2146,7 @@ padding:1em 1.5em;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 
@@ -1993,27 +2156,31 @@ padding:1em 1.5em;
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
     }
 }
 
 
 .contact-img {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
-    height: 100%;
+    height: 50%;
     background: url(assets/img/contact.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
+        background-position:center center;
+
     color: #fff;
 }
 @media(max-width:768px){
     .contact-img {
     background-image: url(assets/img/contact.jpg);   
     background-repeat:no-repeat;
-    background-size:100% 100%;
+    background-size:100% 50%;
     background-position:center center;
     }
 }
@@ -2032,36 +2199,37 @@ padding:1em 1.5em;
 
 
 .management {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
-       width: 99vw;
-    height: 100vh;
-        background-size: 100% 100%;
-    background-size: 100% 100%;
+        height: 50%;
+
+/*       width: 99vw;
+    height: 100vh;*/
+/*        background-size: 100% 100%;
+    background-size: 100% 100%;*/
     background: url(assets/img/n/Our-team.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 
 
 .board {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
-  /*  height: 100%;
-    width: 100%;*/
+
     background: url(assets/img/n/Board-of-Directors.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
-    width: 100vw;
-    height: 100vh;
         background-size: 100% 100%;
 }
 
@@ -2073,6 +2241,7 @@ padding:1em 1.5em;
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
     }
 }*/
 
@@ -2086,7 +2255,7 @@ padding:1em 1.5em;
 
 
 .methodology{
-      min-height: 720px;
+      min-height: 420px;
     position: relative;
        width: 100vw;
     height: 100vh;
@@ -2097,6 +2266,7 @@ padding:1em 1.5em;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 
@@ -2110,6 +2280,7 @@ padding:1em 1.5em;
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
     }
 }
 
@@ -2215,7 +2386,7 @@ a.animated-button.victoria-two:after {
   transform: translateX(-50%) translateY(-50%) rotate(25deg);
 }
 /*
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/n/Process-analtics.jpg) center center;
@@ -2224,6 +2395,7 @@ a.animated-button.victoria-two:after {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 
     */
@@ -2563,7 +2735,7 @@ a.animated-button.thar-four:before {
 
 
 .learning {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/learning_and_development.jpg) center center;
@@ -2572,6 +2744,7 @@ a.animated-button.thar-four:before {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 
@@ -2581,13 +2754,40 @@ a.animated-button.thar-four:before {
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
+    }
+}
+
+
+.training {
+    min-height: 320px;
+    position: relative;
+    /*height: 100%;*/
+    background: url(assets/img/n/training-concept-image.jpg) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height:35%;
+    color: #fff;
+}
+
+@media(max-width:768px){
+    .training {
+    background-image: url(assets/img/n/training-concept-image.jpg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    min-height:300px;
     }
 }
 
 
 
+
 .process {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/n/Process-analtics.jpg) center center;
@@ -2596,6 +2796,7 @@ a.animated-button.thar-four:before {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 
@@ -2605,6 +2806,7 @@ a.animated-button.thar-four:before {
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center center;
+    min-height:300px;
     }
 }
 
@@ -2660,7 +2862,7 @@ h2 {
   color: #DBAE65;
 }
 .research {
-    min-height: 720px;
+    min-height: 420px;
     position: relative;
     height: 100%;
     background: url(assets/img/n/Research.jpg) center center;
@@ -2669,10 +2871,12 @@ h2 {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height:50%;
     color: #fff;
 }
 service-block, .gallery-block, .vacation-offer-block, .resort-overview-block, .blog-block, .blog-block-slider, .about-block, .contact-block, .blog{
-    padding: 70px 0 0 0;
+    padding: 0px 0 0 0;
+    /*height: 600px;*/
 }
 .vacation-offer-bgbanner {
     background: rgba(0, 0, 0, 0) url("assets/img/balance.jpg") no-repeat scroll center center / cover ;
