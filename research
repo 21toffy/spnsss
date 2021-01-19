@@ -553,7 +553,7 @@ The role of accountants is shifting from traditional bean counters to more of.. 
                 if (res.status == 200) {
                 // swal("!", "Data Submitted Successfully", "success");
                 var link = document.createElement('a');
-                link.href = 'https://drive.google.com/file/d/1sNPcGZg9WQZsQUS_u-I_phYuscPXl_Uf/view?usp=drivesdk';
+                link.href = 'news_insight.pdf';
                 link.download = 'Insights.pdf';
                 link.dispatchEvent(new MouseEvent('click'));
                 swal("!", "Data Submitted Successfully", "success");
